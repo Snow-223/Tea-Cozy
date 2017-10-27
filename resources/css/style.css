@@ -70,3 +70,51 @@ nav{
   width: 1200px;
   background-color: black;
 }
+
+.second{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.second img{
+  height: 200px;
+  width: 300px;
+}
+
+.second h4{
+  margin: 10px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.berry{
+  margin:
+  display: flex;
+  flex-direction: column;
+}
+
+.rum{
+  display:flex;
+  flex-direction: column;
+}
+
+.donuts{
+  display: flex;
+  flex-direction: column;
+}
+
+.ave{
+  display:flex;
+  flex-direction: column;
+  margin-left: 175px;
+}
+
+.bedford{
+  display:flex;
+  flex-direction: column;
+  margin-right: 175px;
+}
