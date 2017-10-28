@@ -51,7 +51,7 @@ nav{
   margin: 20px;
 }
 
-.first{
+.mission{
   display: flex;
   background-image: url(img-mission-background.jpg);
   background-size: cover;
@@ -71,17 +71,17 @@ nav{
   background-color: black;
 }
 
-.second{
+.feature{
   width: 1000px;
   margin: 0 auto;
 }
 
-.second img{
+.feature img{
   height: 200px;
   width: 300px;
 }
 
-.second h4{
+.feature h4{
   margin: 10px;
 }
 
@@ -117,4 +117,56 @@ nav{
   display:flex;
   flex-direction: column;
   margin-right: 175px;
+}
+
+
+.location{
+  background-image: url(img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.location .con{
+  width: 1200px;
+  padding-top: 50px;
+}
+
+
+.block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.downtown{
+  margin-right: 40px;
+  background-color: black;
+  width: 300px;
+  height: 270px;
+    text-align: center;
+}
+
+.bayside{
+  background-color: black;
+  width: 300px;
+  height: 270px;
+  text-align: center;
+}
+
+.oakdale{
+  background-color: black;
+  margin-left: 40px;
+  width: 300px;
+  height: 270px;
+  text-align: center;
+}
+
+.location .p{
+  margin-top: 15px;
 }
