@@ -51,7 +51,7 @@ nav{
   margin: 20px;
 }
 
-.mission{
+#mission{
   display: flex;
   background-image: url(img-mission-background.jpg);
   background-size: cover;
@@ -71,17 +71,18 @@ nav{
   background-color: black;
 }
 
-.feature{
+#feature{
   width: 1000px;
   margin: 0 auto;
+  padding-top: 69px;
 }
 
-.feature img{
+#feature img{
   height: 200px;
   width: 300px;
 }
 
-.feature h4{
+#feature h4{
   margin: 10px;
 }
 
@@ -120,7 +121,7 @@ nav{
 }
 
 
-.location{
+#location{
   background-image: url(img-locations-background.jpg);
   background-repeat: no-repeat;
   height: 500px;
@@ -128,13 +129,13 @@ nav{
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  margin-top: 69px;
+  padding-top: 69px;
 }
 
 
-
-.location .con{
+#location .con{
   width: 1200px;
-  padding-top: 50px;
 }
 
 
@@ -167,6 +168,16 @@ nav{
   text-align: center;
 }
 
-.location .p{
+#location .p{
   margin-top: 15px;
+}
+
+.fourth{
+  height: 200px;
+}
+
+.footer{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
 }
